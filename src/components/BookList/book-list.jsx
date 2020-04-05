@@ -6,7 +6,7 @@ import {
   BookAuthor,
   BookCardContainer,
   BookCover
-} from './book-list.styles';
+} from './book-list
 
 class BookList extends React.Component {
   constructor(props) {
