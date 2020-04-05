@@ -14,12 +14,12 @@ const BookCategories = withRouter(({ match, history }) => {
       >
         {' '}
         <StyledBackButton src={Back} />
-        {match.params.bookCategory.charAt(0).toUpperCase() + match.params.bookCategory.slice(1) }
+        {match.params.bookCategory.charAt(0).toUpperCase() +
+          match.params.bookCategory.slice(1)}
       </StyledGenre>
       <BookList bookTopicList={match.params.bookCategory} />
     </div>
   );
-
 });
 
 export default BookCategories;
