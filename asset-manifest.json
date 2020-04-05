@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/gutenberg/static/css/main.4db3cdfa.chunk.css",
+    "main.js": "/gutenberg/static/js/main.e1963f29.chunk.js",
+    "main.js.map": "/gutenberg/static/js/main.e1963f29.chunk.js.map",
+    "runtime-main.js": "/gutenberg/static/js/runtime-main.e619ba0d.js",
+    "runtime-main.js.map": "/gutenberg/static/js/runtime-main.e619ba0d.js.map",
+    "static/js/2.88ff02e2.chunk.js": "/gutenberg/static/js/2.88ff02e2.chunk.js",
+    "static/js/2.88ff02e2.chunk.js.map": "/gutenberg/static/js/2.88ff02e2.chunk.js.map",
+    "index.html": "/gutenberg/index.html",
+    "precache-manifest.73cef52c56d1e9153eb6eb54ef0b1389.js": "/gutenberg/precache-manifest.73cef52c56d1e9153eb6eb54ef0b1389.js",
+    "service-worker.js": "/gutenberg/service-worker.js",
+    "static/css/main.4db3cdfa.chunk.css.map": "/gutenberg/static/css/main.4db3cdfa.chunk.css.map",
+    "static/js/2.88ff02e2.chunk.js.LICENSE.txt": "/gutenberg/static/js/2.88ff02e2.chunk.js.LICENSE.txt",
+    "static/media/Adventure.svg": "/gutenberg/static/media/Adventure.4a39962b.svg",
+    "static/media/Back.svg": "/gutenberg/static/media/Back.650ced74.svg",
+    "static/media/Drama.svg": "/gutenberg/static/media/Drama.ffe5b261.svg",
+    "static/media/Fiction.svg": "/gutenberg/static/media/Fiction.fb8af270.svg",
+    "static/media/History.svg": "/gutenberg/static/media/History.0689e2d1.svg",
+    "static/media/Humour.svg": "/gutenberg/static/media/Humour.5218701c.svg",
+    "static/media/Next.svg": "/gutenberg/static/media/Next.aa84e274.svg",
+    "static/media/Pattern.svg": "/gutenberg/static/media/Pattern.10f528b0.svg",
+    "static/media/Philosophy.svg": "/gutenberg/static/media/Philosophy.faf4e2b3.svg",
+    "static/media/Politics.svg": "/gutenberg/static/media/Politics.bb1d3832.svg",
+    "static/media/Search.svg": "/gutenberg/static/media/Search.8492e7a8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e619ba0d.js",
+    "static/js/2.88ff02e2.chunk.js",
+    "static/css/main.4db3cdfa.chunk.css",
+    "static/js/main.e1963f29.chunk.js"
+  ]
+}
