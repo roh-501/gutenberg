@@ -5,7 +5,7 @@ import {
   BookTitle,
   BookAuthor,
   BookCardContainer,
-  BookCover
+  BookCover,
 } from './book-list.styles';
 
 class BookList extends React.Component {
@@ -38,8 +38,10 @@ class BookList extends React.Component {
     const filteredBooks = topic.filter(
       (item) =>
         item.title.toLowerCase().includes(searchField) ||
-        item.authors[0].name.toLowerCase().includes(searchField)
+        (item.authors.length > 0 &&
+          item.authors[0].name.toLowerCase().includes(searchField))
     );
+
     return searchField
       ? filteredBooks.map((item) => (
           <div key={item.id}>
@@ -53,7 +55,9 @@ class BookList extends React.Component {
                 src={`http://www.gutenberg.org/cache/epub/${item.id}/pg${item.id}.cover.medium.jpg`}
               />
               <BookTitle>{item.title}</BookTitle>
-              <BookAuthor>{item.authors[0].name}</BookAuthor>
+              <BookAuthor>
+                {item.authors.length > 0 && item.authors[0].name}
+              </BookAuthor>
             </a>
           </div>
         ))
@@ -69,7 +73,10 @@ class BookList extends React.Component {
                 src={`http://www.gutenberg.org/cache/epub/${item.id}/pg${item.id}.cover.medium.jpg`}
               />
               <BookTitle>{item.title}</BookTitle>
-              <BookAuthor>{item.authors[0].name}</BookAuthor>
+              <BookAuthor>
+                {' '}
+                {item.authors.length > 0 && item.authors[0].name}
+              </BookAuthor>
             </a>
           </div>
         ));
